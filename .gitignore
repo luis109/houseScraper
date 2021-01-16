@@ -1,3 +1,4 @@
-virtual_env_selenium/
+venv/
+generated_files/
 **/.vscode
 nohup.out
