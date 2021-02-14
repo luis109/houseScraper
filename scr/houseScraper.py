@@ -13,8 +13,8 @@ next_wait_time = 8
 # rs.parseAllListingsCSV(csv_folder_path)
 # del rs
 
-    # Wait options
-    start_driver_time = 10
-    next_page_wait_time = 8
-
-    # Selenium driver
+# OLX
+start_url = "https://www.olx.pt/imoveis/apartamento-casa-a-venda/apartamentos-venda/paranhos/"
+olx = olxSpider_driver(start_url, start_wait_time, next_wait_time)
+olx.parseAllListingsCSV(csv_folder_path)
+del olx
